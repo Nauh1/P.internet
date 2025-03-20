@@ -69,17 +69,92 @@ body {
 .listaMods{
     color: white;
 }
+    
 
-
-.filter h2{
-    text-align: center;
+.seta{
+    width: 10px;
+    height: 10px;
 }
 
-.filter{
+.menuFilter{
     color: white;
-    display: block;
     margin: 10px;
-    max-width: 300px;
+    max-width: 250px;
     background-color:#383838;
+    text-decoration: none;
+    list-style-type: none;
 }
+
+.menuFilter li{
+    padding: 20px;
+    width:115px;
+}
+
+.submenufilter1{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #383838;
+    
+}
+
+.menuFilter li:hover .submenufilter1{
+    display: block;
+}
+
+.submenufilter1 li{
+    padding: 5px 10px;
+}
+
+.submenufilter1 li a:hover{
+    background-color: rgb(92, 0, 128);
+}
+
+
+.submenufilter2{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #383838;    
+}
+
+.menuFilter li:hover .submenufilter2{
+    display: block;
+}
+
+.submenufilter2 li{
+    padding: 5px 10px;
+}
+
+.submenufilter2 li a:hover{
+    background-color: rgb(92, 0, 128);
+}
+
+.submenufilter3{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #383838;
+    
+}
+
+.menuFilter li:hover .submenufilter3{
+    display: block;
+}
+
+.submenufilter3 li{
+    padding: 5px 10px;
+}
+
+.submenufilter3 li a:hover{
+    background-color: rgb(92, 0, 128);
+}
+
+
 
