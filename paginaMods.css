@@ -3,7 +3,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-nav{
+.navMenu{
     background-color:#1b2329;
     text-align: center;
 }
@@ -65,3 +65,21 @@ nav{
 .text_menu{
     color: white;
 }
+
+.listaMods{
+    color: white;
+}
+
+
+.filter h2{
+    text-align: center;
+}
+
+.filter{
+    color: white;
+    display: block;
+    margin: 10px;
+    max-width: 300px;
+    background-color:#383838;
+}
+
