@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envio de Mods - MineMods</title>
+    <link rel="stylesheet" href="envioMod.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="titulo1">Mine mods</h1>
+            <ul class="menu">
+                <li><a href="menu.html">Início</a></li>
+                <li><a href="paginaMods.html">Página de mods</a></li>
+                <li>
+                    <a href="categoriaMods.html">Categorias de mods</a>
+                    <ul class="submenu">
+                        <li><a href="/mods/modMobs.html">Mods de mobs</a></li>
+                        <li><a href="/mods/modItens.html">Mods de itens</a></li>
+                        <li><a href="/mods/modGeracaoMundo.html">Mods de geração de mundo</a></li>
+                        <li><a href="/mods/modGraficos.html">Mods de gráficos</a></li>
+                    </ul>
+                </li>
+                <li><a href="envioMod.html">Envio de mods</a></li>
+                <li><a href="forum.html">Fórum</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="titulo">Envie seu Mod para a Comunidade!</h2>
+        <p class="text_menu">Preencha o formulário abaixo para enviar seu mod. Nossa equipe analisará e publicará em breve!</p>
+        
+        <form action="submit_mod.php" method="post">
+            <label for="nomeMod">Nome do Mod:</label>
+            <input type="text" id="nomeMod" name="nomeMod" required>
+            
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" name="descricao" rows="4" required></textarea>
+            
+            <label for="categoria">Categoria:</label>
+            <select id="categoria" name="categoria" required>
+                <option value="mobs">Mods de Mobs</option>
+                <option value="itens">Mods de Itens</option>
+                <option value="geracao">Mods de Geração de Mundo</option>
+                <option value="graficos">Mods de Gráficos</option>
+            </select>
+            
+            <label for="arquivoMod">Arquivo do Mod (.zip, .jar):</label>
+            <input type="text" id="arquivoMod" name="arquivoMod" placeholder="Nome do arquivo" disabled>
+            
+            <button type="submit" disabled>Enviar Mod</button>
+        </form>
+    </main>
+    
+</body>
+
+</html>

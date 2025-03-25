@@ -1,0 +1,138 @@
+body {
+    background-color:#12191f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav{
+    background-color:#1b2329;
+    text-align: center;
+}
+
+.menu{
+    list-style-type: none;
+    padding: 25px;
+    margin:10px;
+    display: inline-flex;
+}
+
+.menu li{
+    position: relative;
+
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: #68c2fb;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    background-color: purple;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+.submenu li a{
+    padding: 10px 15px;
+}
+
+.submenu li a:hover{
+    background-color: purple;
+}
+
+.titulo{
+    color: wheat;
+    text-align: center;
+}
+
+.titulo1{
+    color: wheat;
+    text-align: center;
+}
+
+.text_menu{
+    color: white;
+}
+
+.new-post {
+    background-color: #1b2329;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.new-post form {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-post label {
+    margin-bottom: 5px;
+}
+
+.new-post input, .new-post textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #252f3d;
+    border: 1px solid #68c2fb;
+    color: white;
+    border-radius: 5px;
+}
+
+.new-post button {
+    background-color: #68c2fb;
+    padding: 10px 20px;
+    border: none;
+    color: #12191f;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+    width: 270px;
+}
+
+.new-post button:hover {
+    background-color: purple;
+    color: white;
+}
+
+.posts .post {
+    background-color: #1b2329;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.posts h4 {
+    color: wheat;
+    margin-bottom: 10px;
+}
+
+.posts p {
+    color: white;
+}
+
+.author, .date {
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+.new-post{
+    color: white;
+}
+
+.tituloPostagem{
+    color: white;
+}

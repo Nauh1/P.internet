@@ -16,32 +16,35 @@
           <li>
             <a href="categoriaMods.html">Categorias de mods</a>
             <ul class="submenu">
-                <li><a href="modsMobs.html">Mods de mobs</a></li>
-                <li><a href="categoriaMods.html">Mods de itens</a></li>
-                <li><a href="categoriaMods.html">Mods de geração de mundo</a></li>
-                <li><a href="categoriaMods.html">Mods de gráficos</a></li>
+              <li><a href="/mods/modMobs.html">Mods de mobs</a></li>
+              <li><a href="/mods/modItens.html">Mods de itens</a></li>
+              <li><a href="/mods/modGeracaoMundo.html">Mods de geração de mundo</a></li>
+              <li><a href="/mods/modGraficos.html">Mods de gráficos</a></li>
             </ul>
           </li>
 
-          <li><a href="-">Envio de mods</a></li>
-          <li><a href="-">Fórum</a></li>
+          <li><a href="envioMod.html">Envio de mods</a></li>
+          <li><a href="forum.html">Fórum</a></li>
           <li><a href="sobre.html">Sobre</a></li>
         </ul>
+       
       </nav>
       <h2 class="listaMods">Lista de mods</h2>
-
       
+      <form action="/search_results.html" method="get" class="search-form">
+        <input type="search" name="query" placeholder="Pesquisar mods..." class="search-input" />
+        <button type="submit" class="search-button" disabled>Buscar</button>
+      </form>
       <nav>
         <ul class="menuFilter">
           <h2>Filter</h2>
           <li>
-            <a>Game version  <img class = "seta", src="setaDown.png" alt="oi"></a>
+            <a>Game version  <img class="seta" src="/images/setaDown.png" alt="oi"></a>
             <ul class="submenufilter1">
               <li>1.21.4</li>
               <li>1.21.3</li>
               <li>1.21.2</li>
               <li>1.21.1</li>
-
               <li>1.20.4</li>
               <li>1.20.3</li>
               <li>1.20.2</li>
@@ -50,7 +53,7 @@
           </li>
           
           <li>
-            <a>API version <img class = "seta", src="setaDown.png" alt="oi"> </a>
+            <a>API version <img class="seta" src="/images/setaDown.png" alt="oi"> </a>
             <ul class="submenufilter2">
               <li>Fabric</li>
               <li>Forge</li>
@@ -60,22 +63,18 @@
           </li>
 
           <li>
-            <a>Cetogires <img class = "seta", src="setaDown.png" alt="oi"> </a>
+            <a>Cetogires <img class="seta" src="/images/setaDown.png" alt="oi"> </a>
             <ul class="submenufilter3">
               <li>RPG</li>
               <li>Aventura</li>
               <li>Fantasy</li>
               <li>Magic</li>
-              
               <li>Cosmic</li>
               <li>Technology</li>
               <li>World gen</li>
               <li>Armor, Tools, and Weapons</li>
             </ul>
           </li>
-
-
-
         </ul>
       </nav>
     </header>

@@ -112,7 +112,6 @@ body {
     background-color: rgb(92, 0, 128);
 }
 
-
 .submenufilter2{
     display: none;
     position: absolute;
@@ -156,5 +155,36 @@ body {
     background-color: rgb(92, 0, 128);
 }
 
+.listaMods{
+    color: wheat;
+}
+
+.search-form {
+    display: flex;
+    margin-top: 10px;
+}
 
 
+.search-input {
+    padding: 8px;
+    width: 200px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+
+.search-button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    color: white;
+    background-color: #68c2fb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #45a1d0;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineMods</title>
+    <link rel="stylesheet" href="forum.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="titulo1">Mine mods</h1>
+            <ul class="menu">
+                <li><a href="menu.html">Início</a></li>
+                <li><a href="paginaMods.html">Página de mods</a></li>
+                <li>
+                    <a href="categoriaMods.html">Categorias de mods</a>
+                    <ul class="submenu">
+                        <li><a href="/mods/modMobs.html">Mods de mobs</a></li>
+                        <li><a href="/mods/modItens.html">Mods de itens</a></li>
+                        <li><a href="/mods/modGeracaoMundo.html">Mods de geração de mundo</a></li>
+                        <li><a href="/mods/modGraficos.html">Mods de gráficos</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="envioMod.html">Envio de mods</a></li>
+                <li><a href="forum.html">Fórum</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <h2 class="titulo">Fórum de Discussões</h2>
+        <section class="new-post">
+            <h3>Adicionar Nova Postagem</h3>
+            <form action="#" method="post">
+                <label for="title">Título:</label>
+                <input type="text" id="title" name="title" required>
+
+                <label for="content">Conteúdo:</label>
+                <textarea id="content" name="content" rows="5" required></textarea>
+
+                <button type="submit" disabled>Postar</button>
+            </form>
+        </section>
+        <section class="posts">
+            <h3 class="tituloPostagem">Postagens Recentes</h3>
+
+            <div class="post">
+                <h4>Título da Postagem 1</h4>
+                <p>Conteúdo da postagem 1...</p>
+                <p class="author">Postado por: Usuário 1</p>
+                <p class="date">Data: 25/03/2025</p>
+            </div>
+
+            <div class="post">
+                <h4>Título da Postagem 2</h4>
+                <p>Conteúdo da postagem 2...</p>
+                <p class="author">Postado por: Usuário 2</p>
+                <p class="date">Data: 24/03/2025</p>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

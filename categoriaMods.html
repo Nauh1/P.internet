@@ -1,75 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MineCatergoriasMods</title>
-    <link rel="stylesheet" href="categoriaMods.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav>
-        <h1 class="titulo1">Mine mods</h1>
-        <ul class="menu">
-          <li><a href="menu.html">Início</a></li>
-          <li><a href="paginaMods.html">Página de mods</a></li>
-          <li>
-            <a href="categoriaMods.html">Categorias de mods</a>
-            <ul class="submenu">
-              <li><a href="modsMobs.html">Mods de mobs</a></li>
-              <li><a href="categoriaMods.html">Mods de itens</a></li>
-              <li><a href="categoriaMods.html">Mods de geração de mundo</a></li>
-              <li><a href="categoriaMods.html">Mods de gráficos</a></li>
-            </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MineCatergoriasMods</title>
+  <link rel="stylesheet" href="categoriaMods.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="menuPrincipal">
+      <h1 class="titulo1">Mine mods</h1>
+      <ul class="menu">
+        <li><a href="menu.html">Início</a></li>
+        <li><a href="paginaMods.html">Página de mods</a></li>
+        <li>
+          <a href="categoriaMods.html">Categorias de mods</a>
+          <ul class="submenu">
+            <li><a href="/mods/modMobs.html">Mods de mobs</a></li>
+            <li><a href="/mods/modItens.html">Mods de itens</a></li>
+            <li><a href="/mods/modGeracaoMundo.html">Mods de geração de mundo</a></li>
+            <li><a href="/mods/modGraficos.html">Mods de gráficos</a></li>
+          </ul>
+        </li>
+
+        <li><a href="envioMod.html">Envio de mods</a></li>
+        <li><a href="forum.html">Fórum</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+      </ul>
+    </nav>
+
+    <div class="format">
+      <nav class="list">
+        <ul class="cards">
+
+          <li class="card">
+            <div class="mod-info">
+              <h2>Mod de Mobs</h2>
+              <p>Mods que adicionam ou modificam mobs dentro do jogo.</p>
+              <button class="buttonMaisSobre">Mais sobre</button>
+            </div>
           </li>
 
-          <li><a href="-">Envio de mods</a></li>
-          <li><a href="-">Fórum</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
+          <li class="card">
+            <div class="mod-info">
+              <h2>Mod de Itens</h2>
+              <p>Mods que adicionam ou modificam itens dentro do jogo.</p>
+              <button class="buttonMaisSobre">Mais sobre</button>
+            </div>
+          </li>
+
+          <li class="card">
+            <div class="mod-info">
+              <h2>Mod de Geração de Mundo</h2>
+              <p>
+                Mods que modificam a geração do mundo adicionando estruturas
+                novas, biomas e até a formação geológica.
+              </p>
+              <button class="buttonMaisSobre">Mais sobre</button>
+            </div>
+          </li>
+          <li class="card">
+            <div class="mod-info">
+              <h2>Mod de Gráficos</h2>
+              <p>
+                Mods que otimizam a renderização do mundo, ajudando no ganho
+                de FPS, ou, mods que adicionam Shaders para deixar o jogo mais
+                bonito.
+              </p>
+              <button class="buttonMaisSobre">Mais sobre</button>
+            </div>
+          </li>
         </ul>
       </nav>
-      <div class="format">
-        <nav class="list">
-          <ul class="cards">
-            <li class="card">
-              <div class="mod-info">
-                <h2>Mod de Mobs</h2>
-                <p>Mods que adicionam ou modificam mobs dentro do jogo.</p>
-                <button class="buttonMaisSobre">Mais sobre</button>
-              </div>
-            </li>
-            <li class="card">
-              <div class="mod-info">
-                <h2>Mod de Itens</h2>
-                <p>Mods que adicionam ou modificam itens dentro do jogo.</p>
-                <button class="buttonMaisSobre">Mais sobre</button>
-              </div>
-            </li>
-            <li class="card">
-              <div class="mod-info">
-                <h2>Mod de Geração de Mundo</h2>
-                <p>
-                  Mods que modificam a geração do mundo adicionando estruturas
-                  novas, biomas e até a formação geológica.
-                </p>
-                <button class="buttonMaisSobre">Mais sobre</button>
-              </div>
-            </li>
-            <li class="card">
-              <div class="mod-info">
-                <h2>Mod de Gráficos</h2>
-                <p>
-                  Mods que otimizam a renderização do mundo, ajudando no ganho
-                  de FPS, ou, mods que adicionam Shaders para deixar o jogo mais
-                  bonito.
-                </p>
-                <button class="buttonMaisSobre">Mais sobre</button>
-              </div>
-            </li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-  </body>
+    </div>
+  </header>
+</body>
+
 </html>
